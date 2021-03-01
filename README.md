@@ -1,2 +1,1 @@
-# FreshMochaChai
-A ready-to-go lightweight setup for getting started building your own Mocha &amp; Chai test suites.
+# [FreshMochaChai is deprecated and has moved over here!](https://github.com/elderdragn/freshmocha)
