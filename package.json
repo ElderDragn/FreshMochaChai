@@ -1,0 +1,24 @@
+{
+  "name": "FreshMocha",
+  "version": "1.0.0",
+  "description": "Guides and templates for getting started with the popular testing library Mocha\\",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha nodeGuide/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElderDragn/FreshMocha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElderDragn/FreshMocha/issues"
+  },
+  "homepage": "https://github.com/ElderDragn/FreshMocha#readme",
+  "dependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0"
+  }
+}
