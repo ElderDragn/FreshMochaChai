@@ -37,6 +37,7 @@ describe('Suite Title', function() {
   });
 
   // It can be useful to disable single tests with xit() if they take a long time to run, or if you have not written them yet
+  
   xit('Pending test', function() {
     (trueVar).should.equal(true);
   });
@@ -46,6 +47,14 @@ describe('Suite Title', function() {
       
     });
   });
+  
+  // You may also chain .only onto a describe/it if you want to run that suite or test exclusively:
+  
+  /* Uncomment me! */
+  // it.only('Only this test',function() {
+  //   var bestJedi = 'Obi-wan';
+  //   expect(bestJedi).to.equal('Obi-wan');
+  // })
 
   // You can nest suite descriptions! :)
   xdescribe('Async Suite', function() {
